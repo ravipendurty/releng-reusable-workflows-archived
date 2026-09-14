@@ -19,15 +19,15 @@ on:
         description: "Gerrit refspec of change"
         required: false
         type: string
-      GERRIT_EVENT_TYPE: 
+      GERRIT_EVENT_TYPE:
         description: "Gerrit refspec of change"
         required: false
         type: string
-      GERRIT_PATCHSET_NUMBER: 
+      GERRIT_PATCHSET_NUMBER:
         description: "Gerrit refspec of change"
         required: false
         type: string
-      GERRIT_PATCHSET_REVISION: 
+      GERRIT_PATCHSET_REVISION:
         description: "Gerrit refspec of change"
         required: false
         type: string
@@ -85,7 +85,7 @@ on:
         required: false
         default: ""
         type: string
-        
+
 
 # concurrency:
 #   # yamllint disable-line rule:line-length
